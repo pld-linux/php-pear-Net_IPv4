@@ -1,8 +1,9 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Net
-%define         _subclass       IPv4
+%define		_class		Net
+%define		_subclass	IPv4
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - IPv4 network calculations and validation
 Summary(pl):	%{_pearname} - obliczanie i kontrola adresów sieciowych IPv4
 Name:		php-pear-%{_pearname}
