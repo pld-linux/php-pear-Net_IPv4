@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Class used for calculating IPv4 (AF_INET family) address information
 such as network addresses as well as IP address validity.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Klasa s³u¿y do obliczania informacji o adresach sieciowych IPv4
