@@ -3,10 +3,10 @@
 %define         _subclass       IPv4
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_class}_%{_subclass} - IPv4 network calculations and validation
-Summary(pl):	%{_class}_%{_subclass} -
+Summary(pl):	%{_class}_%{_subclass} - obliczanie i kontrola adresów sieciowych IPv4
 Name:		php-pear-%{_pearname}
 Version:	1.0
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -18,7 +18,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Class used for calculating IPv4 (AF_INET family) address information
-such as network as addresses as well as IP address validity.
+such as network addresses as well as IP address validity.
+
+%description -l pl
+Klasa s³u¿y do obliczania informacji o adresach sieciowych IPv4
+(rodzina AF_INET) takich jak adresy sieci, a tak¿e sprawdzania
+poprawno¶ci adresów IP.
 
 %prep
 %setup -q -c
