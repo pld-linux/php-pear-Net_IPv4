@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - IPv4 network calculations and validation
 Summary(pl):	%{_pearname} - obliczanie i kontrola adresów sieciowych IPv4
 Name:		php-pear-%{_pearname}
-Version:	1.1
+Version:	1.2
 Release:	1
 License:	PHP 2.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	aefbe0cd84023b8dab4256b24878d808
+# Source0-md5:	a780053231ebc6c8efa4040ca5ecaaa8
 URL:		http://pear.php.net/package/Net_IPv4/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
