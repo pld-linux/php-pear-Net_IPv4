@@ -2,8 +2,8 @@
 %define         _class          Net
 %define         _subclass       IPv4
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - IPv4 network calculations and validation
-Summary(pl):	%{_class}_%{_subclass} - obliczanie i kontrola adresów sieciowych IPv4
+Summary:	%{_pearname} - IPv4 network calculations and validation
+Summary(pl):	%{_pearname} - obliczanie i kontrola adresów sieciowych IPv4
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	2
