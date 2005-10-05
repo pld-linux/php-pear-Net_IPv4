@@ -8,7 +8,7 @@ Summary:	%{_pearname} - IPv4 network calculations and validation
 Summary(pl):	%{_pearname} - obliczanie i kontrola adresów sieciowych IPv4
 Name:		php-pear-%{_pearname}
 Version:	1.2
-Release:	2.1
+Release:	3
 License:	PHP 2.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
