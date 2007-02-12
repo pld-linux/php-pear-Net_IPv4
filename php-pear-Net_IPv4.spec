@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - IPv4 network calculations and validation
-Summary(pl):	%{_pearname} - obliczanie i kontrola adresÛw sieciowych IPv4
+Summary(pl.UTF-8):   %{_pearname} - obliczanie i kontrola adres√≥w sieciowych IPv4
 Name:		php-pear-%{_pearname}
 Version:	1.3.0
 Release:	1
@@ -27,10 +27,10 @@ such as network addresses as well as IP address validity.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa s≥uøy do obliczania informacji o adresach sieciowych IPv4
-(rodzina AF_INET) takich jak adresy sieci, a takøe sprawdzania
-poprawno∂ci adresÛw IP.
+%description -l pl.UTF-8
+Klasa s≈Çu≈ºy do obliczania informacji o adresach sieciowych IPv4
+(rodzina AF_INET) takich jak adresy sieci, a tak≈ºe sprawdzania
+poprawno≈õci adres√≥w IP.
 
 Ta klasa ma w PEAR status: %{_status}.
 
