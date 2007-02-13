@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - IPv4 network calculations and validation
-Summary(pl.UTF-8):   %{_pearname} - obliczanie i kontrola adresów sieciowych IPv4
+Summary(pl.UTF-8):	%{_pearname} - obliczanie i kontrola adresów sieciowych IPv4
 Name:		php-pear-%{_pearname}
 Version:	1.3.0
 Release:	1
